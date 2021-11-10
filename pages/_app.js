@@ -1,7 +1,7 @@
 import '../styles/globals.css'
-import Home from './home'
-import Layout from './layout'
-
+import Layout from './components/Layouts/layout'
+import 'bootstrap/dist/css/bootstrap.css'
+import Home from './components/home/home'
 function MyApp({ Component, pageProps }) {
   return (
     <Layout>
